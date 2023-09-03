@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <h1>SAUMYA SHARMA</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="first">
+        <div class="container">
+            <h2>Welcome to My Portfolio!</h2>
+            <p>Hi! I'm Saumya Sharma, a sophomore a JIIT, Noida in CSE branch. I have been very keen towards technology and every aspect of it.
+            <br>
+            <p id="p1">My tech stack includes:</p>
+            <button class="button-ts">HTML</button>  
+            <button class="button-ts">CSS</button>
+            <button class="button-ts">JAVASCRIPT</button>
+            <button class="button-ts">NODE.JS</button>
+            <button class="button-ts">EXPRESS.JS</button>
+            <br>
+            <br>
+            <button class="button-ts">SQL/MYSQL</button>
+            <button class="button-ts">PHP</button>
+            <button class="button-ts">C</button>
+            <button class="button-ts">C++</button>
+            <button class="button-ts">JAVA</button>
+            <br>
+            <br>
+            I'm currently learning new web and AI/ML technologies and will be implementing them in form of new projects and will update the tech stack and projects here.
+            </p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h3>About Me</h3>
+            <p>I'm also very invested in Competitive Programming as I love problem solving.
+                My CP handles:<br>
+                <button class="btn" type="button" onclick="redirect('https://codeforces.com/profile/saumyasharma')">Codeforces<i class="fa fa-chevron-right"></i></button><span> [Max Rating:1015] </span>
+                <br>
+                <button class="btn" type="button" onclick="redirect('https://www.codechef.com/users/saumyaasharma')">CodeChef <i class="fa fa-chevron-right"></i></button><span> [Max Rating:1418] </span>
+                <br>
+                <button class="btn" type="button" onclick="redirect('https://leetcode.com/saumyaasharma/')">LeetCode <i class="fa fa-chevron-right"></i></button><span> [Max Rating: 1494]</span>
+            </p>
+            <br>
+            <br>
+            <p>
+                RECENT ACHIEVEMENTS: <BR>
+                1. XENITH'23 HACKSTREET HACKATHON [FEB 2023]: FIRST YEAR'S SPECIALIST<br>
+                2. BITBOX [GDSC J128, APRIL2023]: SPECIAL MENTIONS FRON 800+ REGISTRATIONS<br>
+                3. POSTER MAKING BY IIC: TEAM RANKED 1ST POSITION AMONG 40 PARTICIPANTS<br>
+            </p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <p>You can also check out my github repositries.
+                <br>
+                <button class="button-git" onclick="redirect()">Github<i class="fa fa-chevron-right"></i></button>
+            </p>
+            <br>
+            <!-- Your portfolio items go here -->
+            <h2>MY PROJECTS INCLUDE:</h2>
+        </div>
+        <div class="ag-format-container">
+            <div class="ag-courses_box">
+              <div class="ag-courses_item">
+                <a href="https://github.com/saumyasharma03/EduSprint-project-educational-platform/blob/main/README.md" class="ag-courses-item_link">
+                  <div class="ag-courses-item_bg"></div>
+          
+                  <div class="ag-courses-item_title">
+                    EduSprint-An educational platform
+                    [HTML,CSS, JS]
+                  </div>
+          
+                  <div class="ag-courses-item_date-box">
+                    Dated:
+                    <span class="ag-courses-item_date">
+                      May,2023
+                    </span>
+                  </div>
+                </a>
+              </div>
+          
+              <div class="ag-courses_item">
+                <a href="https://github.com/saumyasharma03" class="ag-courses-item_link">
+                  <div class="ag-courses-item_bg"></div>
+          
+                  <div class="ag-courses-item_title">
+                    C++ Car Management System
+                  </div>
+          
+                  <div class="ag-courses-item_date-box">
+                    Dated:
+                    <span class="ag-courses-item_date">
+                      Mar,2023
+                    </span>
+                  </div>
+                </a>
+              </div>
+          
+              <div class="ag-courses_item">
+                <a href="https://github.com/saumyasharma03" class="ag-courses-item_link">
+                  <div class="ag-courses-item_bg"></div>
+          
+                  <div class="ag-courses-item_title">
+                    HealR- a medical platform
+                    [html,css,js,mysql,php]
+                  </div>
+          
+                  <div class="ag-courses-item_date-box">
+                    Dated:
+                    <span class="ag-courses-item_date">
+                      April,2023
+                    </span>
+                  </div>
+                </a>
+              </div>
+          
+            </div>
+          </div>
+  
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h3>Contact Me</h3>
+            <p>You can reach me at:</p>
+            <p>Email:saumya.sharma0915@gmail.com, saumya.sharma0315@gmail.com, 9922103195@mail.jiit.ac.in</p>
+            <p><a href="https://www.linkedin.com/in/saumya-sharma-7b9198232/">Linkedin</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Saumya Sharma</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript (Optional) -->
+    <script src="script.js"></script>
+</body>
+</html>
